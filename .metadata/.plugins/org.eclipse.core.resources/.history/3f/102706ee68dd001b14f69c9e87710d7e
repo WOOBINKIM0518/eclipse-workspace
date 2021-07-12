@@ -1,0 +1,21 @@
+package woobin;
+
+import java.util.Scanner;
+
+public class Test_16_1 {
+
+	public static void main(String[] args) {
+
+		Scanner sc =new Scanner(System.in);
+		String course[] = {"Java", "C++", "HTML5","컴퓨터구조","안드로이드"};
+		int score [] = {98,88,76,62,55};
+		
+		String name = " "; // 초기값 공백으로 
+		int i = 0;
+		
+		while(true) {// 무한루프
+			  System.out.println("과목이름을 입력하시오.");
+		}
+	}
+
+}

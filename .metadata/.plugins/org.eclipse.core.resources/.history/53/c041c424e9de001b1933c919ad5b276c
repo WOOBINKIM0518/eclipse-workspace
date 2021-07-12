@@ -1,0 +1,40 @@
+package override;
+
+class Shape {
+	public Shape next;
+	public Shape () {next = null;}
+	
+	public void draw() {
+		System.out.println("Shap");
+	}
+}
+
+class Line extends Shape{
+	public void draw () {
+		System.out.println("Line");
+	}
+}
+
+class Rect extends Shape{
+	public void drow() {
+		System.out.println("Rext");
+	}
+}
+
+class Circle extends Shape {
+	public void drow () {
+		System.out.println("Circle");
+	}
+}
+public class OverridingEx{
+	static void paint(Shape p) {
+		p.draw();
+	}
+
+	public static void main(String[] args) {
+		Line line = new Line();
+		paint(line);
+		paint(new Shape());
+	}
+
+}

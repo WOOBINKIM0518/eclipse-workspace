@@ -1,0 +1,14 @@
+package chapter08;
+
+public class ColorPoint {
+praivate Stirng color ;
+	
+	public void setColor(String color) {
+		this.setColor= color;
+	}
+	public void showColorPoint() {
+		System.out.println(color);
+		showPoint();
+	
+	}
+}

@@ -1,0 +1,26 @@
+package Exercise_Q6;
+
+public abstract class Car {
+
+	
+	public void startCar(){
+		System.out.println("시동을 켭니다");
+	}
+	
+	public void driveCar(){
+		System.out.println("달립니다");
+	}
+	public void stopCar(){
+		System.out.println("멉춥니다");
+	}
+	public void turnOff() {
+		System.out.println("시동을 끕니다");
+	}
+	
+	final public void run() {							
+		startCar();										
+		driveCar();
+		stopCar();					
+		turnOff();										
+	}		
+}

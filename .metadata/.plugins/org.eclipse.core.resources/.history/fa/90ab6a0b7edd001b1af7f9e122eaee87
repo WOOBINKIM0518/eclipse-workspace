@@ -1,0 +1,23 @@
+package exam;
+
+public class Test8 {
+
+	public static void main(String[] args) {
+		int a,b;
+		
+		for(int i =0 ; i < 100; i ++) {
+			a= (i/10)/3;
+			b= (i%10)/3;
+			if((a==0)&&(b==0)) {
+				System.out.println(i + "¹Ú¼ö Â¦Â¦");
+			}
+			else if((a!=0)&&(b==0)) {
+				System.out.println(i + "¹Ú¼ö Â¦");
+			}
+			else if((a==0)&&(b!=0)) {
+				System.out.println(i + "¹Ú¼ö Â¦");
+			}
+			
+		}
+	}
+}

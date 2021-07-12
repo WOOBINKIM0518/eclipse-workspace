@@ -1,0 +1,11 @@
+package woobin;
+
+public class QQQ {
+	public static void main(String[] args) {
+		
+		
+		double i = (int)(Math.random());
+		
+				System.out.println(i);
+	}
+}

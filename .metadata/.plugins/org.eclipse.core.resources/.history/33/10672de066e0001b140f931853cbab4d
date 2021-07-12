@@ -1,0 +1,22 @@
+package gamelevel;
+
+public class Player {
+
+	private PlayLevel level;
+	
+	public Player() {
+	level = new BegingerLevel();
+	level.showLevelMessage();
+}
+	public PlayerLevel getLevel() {
+		return level;
+	}
+	
+	public void upgradeLevel(PlayerLevel level) {
+		this.level = level;
+		this.showLevelMessage();
+	}
+	public void play(int count) {
+		level.go(count);
+	}
+}

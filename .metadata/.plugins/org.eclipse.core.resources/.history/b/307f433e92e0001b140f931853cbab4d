@@ -1,0 +1,28 @@
+package Exercise_Q5;
+
+public class Avante extends Car{
+
+	@Override
+	public void startCar() {
+		System.out.println("Avante ½Ãµ¿À»ÄÕ´Ï´Ù.");
+	}
+
+	@Override
+	public void driveCar() {
+		System.out.println("Avante ´Þ¸³´Ï´Ù.");
+	}
+
+	@Override
+	public void stopCar() {
+		System.out.println("Avante ¸ÙÃä´Ï´Ù.");
+	}
+
+	@Override
+	public void turnOff() {
+		System.out.println("Avante ½Ãµ¿ ²ü´Ï´Ù.");
+	}
+
+	
+	
+
+}

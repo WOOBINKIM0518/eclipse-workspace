@@ -1,0 +1,6 @@
+package override3;
+
+public class Cannon extends Weapon	 {
+
+
+	}

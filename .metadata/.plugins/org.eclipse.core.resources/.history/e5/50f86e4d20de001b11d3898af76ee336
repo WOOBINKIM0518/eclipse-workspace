@@ -1,0 +1,9 @@
+package inheritance5;
+
+public class ConstructorEx03 {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

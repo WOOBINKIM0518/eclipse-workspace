@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="chapter05_객체지향.Circle"/>
+    <fullyQualifiedTypeName name="chapter05_객체지향.circle.Person"/>
+    <fullyQualifiedTypeName name="staticex.Student1"/>
+    <fullyQualifiedTypeName name="singleton.Company"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.awt.Point"/>
+    <fullyQualifiedTypeName name="chapter08.Point"/>
+    <fullyQualifiedTypeName name="chapter08.ColorPoint"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction"/>
+    <fullyQualifiedTypeName name="polymorphism.AnimalTest1"/>
+    <fullyQualifiedTypeName name="polymorphism3.AnimalTest"/>
+    <fullyQualifiedTypeName name="polymorphism3.Eagle"/>
+    <fullyQualifiedTypeName name="polymorphism3_3.AnimalTest"/>
+    <fullyQualifiedTypeName name="abstractex.Goodcal"/>
+    <fullyQualifiedTypeName name="abstractex.DeskTop"/>
+    <fullyQualifiedTypeName name="abstractex.Computer"/>
+    <fullyQualifiedTypeName name="abstractex.NoteBook"/>
+    <fullyQualifiedTypeName name="gamelevel.AdvancedLevel"/>
+    <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
+    <fullyQualifiedTypeName name="gamelevel.SuperLevel"/>
+    <fullyQualifiedTypeName name="gamelevel.player"/>
+    <fullyQualifiedTypeName name="finalex.Constant"/>
+    <fullyQualifiedTypeName name="finalex.Define"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,21 @@
+package woobin;
+
+	public class Test_15_2 {
+	    public static void main(String[] args) {
+	        int a,b ;
+	        
+	    	for(int i = 1; i<= 99; i++) {
+	        	a= i/10;
+	        	b= i%10;
+	        	
+	            if((b) == 3||(b) == 6||(i %10) == 9){
+	                if(a == 3||a == 6||a == 9)
+	                    System.out.println(i + " ¹Ú¼öÂ¦Â¦");// ÀÚ¸´¼ö ¸ðµÎ
+	                else
+	                    System.out.println(i + " ¹Ú¼öÂ¦");//1ÀÇ ÀÚ¸´¼ö¸¸
+	            }
+	            else if(i/10 == 3||a == 6||a == 9)
+	                System.out.println(i + " ¹Ú¼öÂ¦");// 10ÀÇ ÀÚ¸´¼ö¸¸
+	        }
+	    }
+	}
