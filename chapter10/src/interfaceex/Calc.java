@@ -15,4 +15,26 @@ public interface Calc {
 	int divide (int num1 ,int num2);
 	
 	
+	
+	default void desecription() {		//구현이 부가 존재하는 메소드
+										//하위 클래스에서 상속, 오버라이딩이 가능 
+		System.out.println("정수 계산기를 구현합니다.");
+		myMothod();           //private 메소드 호출
+	}
+	
+	static int total(int[] arr) {  //static 메소드는 객체 생성 없이
+		int total =0;				//클래스 명으로 메소드 호출이 가능
+		
+		for(int i : arr) {
+			total +=i;
+		}
+			myStaticMethod();		//private static 메소드 호출
+			return total;
+	}
+	private void myMothod() {
+		System.out.println("private 메서드 입니다.");
+	}
+	private static void myStaticMethod() {
+		System.out.println("private static 메소드 입니다.");
+	}
 }

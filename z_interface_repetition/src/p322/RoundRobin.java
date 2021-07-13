@@ -1,20 +1,15 @@
-package scheduler;
+package p322;
 
 public class RoundRobin implements Scheduler {
 
-	
-	//한명씩 돌아가며 동일하게 상담 배분
-	
-	
 	@Override
 	public void getNextCall() {
-		System.out.println("상담 전화를 순서대로 대기열에서 가져옵니다.");
+		System.out.println("상담 전화를 순서대로 대기열에서 가져옵니다");
 	}
 
 	@Override
-	public void sendCallToAgent() {
+	public void senCallToAgent() {
 		System.out.println("다음 순서 상담원에게 배분합니다.");
 	}
-	
 
 }

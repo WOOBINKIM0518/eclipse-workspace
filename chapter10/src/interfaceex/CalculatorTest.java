@@ -13,5 +13,10 @@ public class CalculatorTest {
 		System.out.println(calc.divide(num1, num2));	//CompleteCalc
 		calc.showInfo();
 		
-	}
+		calc.desecription();	//Calc 클래스의 메소드, 상속 되어서 내려감
+		
+		int[] arr = { 1,2,3,4,5};
+		
+		System.out.println(Calc.total(arr));	//Calc는 클래스명
+	}											// Calc클래스의 statci 메소드t
 }

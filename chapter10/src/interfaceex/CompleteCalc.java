@@ -2,6 +2,8 @@ package interfaceex;
 
 public class CompleteCalc extends Calculator{
 
+	
+
 	@Override
 	public int times(int num1, int num2) {
 		return num1 * num2 ;
@@ -13,6 +15,12 @@ public class CompleteCalc extends Calculator{
 			return num1/num2;
 		else 	
 		return Calc.ERROR;
+		
 
 }
+	
+/*
+ * @Override public void desecription() {
+ * System.out.println(" Calc 인터페이스에서 정의된 defautl 메소드도 재정의(오버라이딩)가 가능합니다"); }
+ */
 }
