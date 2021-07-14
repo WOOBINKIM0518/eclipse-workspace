@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="chapter05_객체지향.circle.Person"/>
     <fullyQualifiedTypeName name="staticex.Student1"/>
     <fullyQualifiedTypeName name="singleton.Company"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.awt.Point"/>
@@ -27,4 +26,23 @@
     <fullyQualifiedTypeName name="finalex.Constant"/>
     <fullyQualifiedTypeName name="finalex.Define"/>
     <fullyQualifiedTypeName name="interfaceex.CompleteCalc"/>
+    <fullyQualifiedTypeName name="scheduler.Scheduler"/>
+    <fullyQualifiedTypeName name="scheduler.LeastJob"/>
+    <fullyQualifiedTypeName name="scheduler.RoundRobin"/>
+    <fullyQualifiedTypeName name="scheduler.PriorityAllocation"/>
+    <fullyQualifiedTypeName name="interfaceex.Customer"/>
+    <fullyQualifiedTypeName name="interfaceex.MyClass"/>
+    <fullyQualifiedTypeName name="interfaceex.Y"/>
+    <fullyQualifiedTypeName name="interfaceex.MyInterface"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="bookshelf.Shelf"/>
+    <fullyQualifiedTypeName name="bookshelf.Queue"/>
+    <fullyQualifiedTypeName name="bookshelf.BookShelf"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="p314.Calculator"/>
+    <fullyQualifiedTypeName name="p314.CompleteCalc"/>
+    <fullyQualifiedTypeName name="p314.Scheduler"/>
+    <fullyQualifiedTypeName name="p322.Scheduler"/>
+    <fullyQualifiedTypeName name="p322.RoundRobin"/>
+    <fullyQualifiedTypeName name="p322.PriorityAllocation"/>
 </qualifiedTypeNameHistroy>

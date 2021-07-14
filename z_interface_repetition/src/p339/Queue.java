@@ -1,4 +1,4 @@
-package bookshelf;
+package p339;
 
 public interface Queue {
 	void enQueue(String title);		//배열 맨 마지막에 큐를(요소를)추가
