@@ -24,17 +24,17 @@ class Student{
 	
 	@Override
 	public int hashCode() {
-		return studentId;				//해쉬 코드 값으로 학번을 반환 하도록 매서드 정의
+		return studentId;			//해쉬 코드 값으로 학번을 반환 하도록 매서드 정의
 	}
+
 	
-/*	public String toString() {
-		return studentId+","+studentName;
-	}*/
+	 public String toString() { return studentId+","+studentName; }
+	
 	
 		
-	}
+	
 
-
+}
 
 public class EqualsTest {
 

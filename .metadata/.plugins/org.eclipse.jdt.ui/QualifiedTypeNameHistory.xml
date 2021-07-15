@@ -45,4 +45,16 @@
     <fullyQualifiedTypeName name="p322.Scheduler"/>
     <fullyQualifiedTypeName name="p322.RoundRobin"/>
     <fullyQualifiedTypeName name="p322.PriorityAllocation"/>
+    <fullyQualifiedTypeName name="object.Student"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicGraphicsUtils"/>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+    <fullyQualifiedTypeName name="p378_class.Person"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="com.sun.jdi.Field"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="p392generics.Powder"/>
+    <fullyQualifiedTypeName name="p392generics.GenericPrinter"/>
+    <fullyQualifiedTypeName name="p392generics.Plastic"/>
+    <fullyQualifiedTypeName name="p396_extedns.Plastic"/>
+    <fullyQualifiedTypeName name="p396_extedns.GenericPrinter"/>
 </qualifiedTypeNameHistroy>

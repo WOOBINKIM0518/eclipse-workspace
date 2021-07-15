@@ -13,6 +13,8 @@ public class StringEquals {
 		
 		Integer i1 = new Integer(100);
 		Integer i2 = new Integer(100);
+		Integer i3 = 100; // new해서 쓰지말고 바로 요렇게 사용해라 
+		
 		
 		System.out.println(i1==i2);
 		System.out.println(i1.equals(i2));

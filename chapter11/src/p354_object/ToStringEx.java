@@ -10,10 +10,11 @@ package p354_object;
 			
 		}
 
-		@Override
-		public String toString() {
-			return bookTitle + ","+bookNumber;
-		}
+		
+		 @Override
+		 public String toString() {
+			 return bookTitle + ","+bookNumber; }
+		 
 	}
 	public class ToStringEx {
 		public static void main(String[] args) {

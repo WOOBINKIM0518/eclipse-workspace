@@ -1,8 +1,0 @@
-package abstractex;
-
-public abstract class Calculator {
-
-	public abstract int add(int a , int b);
-	buplic abstract int subtract(int a, int b);
-	public abstract int double average (int [] a);     // 이건 배열
-}
