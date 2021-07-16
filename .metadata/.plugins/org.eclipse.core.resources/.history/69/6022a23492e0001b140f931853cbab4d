@@ -1,6 +1,0 @@
-package Exercise_Q5;
-
-public class Grandeur extends Car{
-
-
-}

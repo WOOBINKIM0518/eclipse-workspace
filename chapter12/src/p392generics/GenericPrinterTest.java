@@ -20,9 +20,9 @@ public class GenericPrinterTest {
 		
 		/*
 		 * ==Powder객체 그대로 적용 
-		 * powder.doPrinting(); 
-		 * powder.toString()
-		 */
+		  powder.doPrinting(); 
+		 System.out.println(powder.toString()); */
+		 
 	
 		
 		GenericPrinter<Plastic> plasticPrinter = new GenericPrinter<Plastic>();
