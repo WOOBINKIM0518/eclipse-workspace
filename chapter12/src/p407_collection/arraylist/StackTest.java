@@ -3,6 +3,7 @@ package p407_collection.arraylist;
 import java.util.ArrayList;
 
 class MyStack{	// Stack : LIFO
+				// ArrayList를 사용해서 Stack 자료형을 구현
 	private ArrayList<String> arryStack = new ArrayList<String>();
 	
 	public void push(String data) {

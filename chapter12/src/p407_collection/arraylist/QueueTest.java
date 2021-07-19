@@ -36,6 +36,7 @@ public class QueueTest {
 		System.out.println(queue.deQueue());
 		System.out.println(queue.deQueue());
 		System.out.println(queue.deQueue());
+		System.out.println(queue.deQueue());
 	}
 
 }
