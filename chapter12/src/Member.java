@@ -1,4 +1,4 @@
-package p407_collection;
+
 
 public class Member implements Comparable<Member> {
 	

@@ -6,7 +6,7 @@ public class TreeSetTest {
 	public static void main(String[] args) {
 		
 		TreeSet<String> treeSet = new TreeSet<String>();
-			//정렬해서 출력 ASC(오름차순 정렬), DES(내림차순 정렬)
+			//정렬해서 출력 ASC(오름차순 정렬 작은값 -->> 큰값 ), DES(내림차순 정렬)
 			//중복된 데이터 하용하지 않음
 		
 		treeSet.add("홍길동");

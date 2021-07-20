@@ -6,7 +6,7 @@ import java.util.TreeSet;
 import p407_collection.Member;
 
 public class MemberTreeSet {
-	private TreeSet<Member> treeSet;
+	private TreeSet<Member> treeSet;  // comparable 인퍼런스 구현
 	
 	public MemberTreeSet() {
 		treeSet = new TreeSet<Member>();
