@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.awt.Point"/>
-    <fullyQualifiedTypeName name="chapter08.Point"/>
-    <fullyQualifiedTypeName name="chapter08.ColorPoint"/>
-    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction"/>
-    <fullyQualifiedTypeName name="polymorphism.AnimalTest1"/>
-    <fullyQualifiedTypeName name="polymorphism3.AnimalTest"/>
-    <fullyQualifiedTypeName name="polymorphism3.Eagle"/>
     <fullyQualifiedTypeName name="polymorphism3_3.AnimalTest"/>
     <fullyQualifiedTypeName name="abstractex.Goodcal"/>
     <fullyQualifiedTypeName name="abstractex.DeskTop"/>
@@ -55,9 +48,16 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="p407_collection.arraylist.MyStack"/>
     <fullyQualifiedTypeName name="p407_collection.arraylist.MyQueue"/>
-    <fullyQualifiedTypeName name="java.util.Vector"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="p407_collection.treeset.Mycompare"/>
+    <fullyQualifiedTypeName name="p440_map.hasmap.MemberHashMap"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Member"/>
     <fullyQualifiedTypeName name="p407_collection.Member"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="example.Student"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="p450_innerclassw.OutClass"/>
 </qualifiedTypeNameHistroy>

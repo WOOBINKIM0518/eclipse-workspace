@@ -37,8 +37,9 @@ public class InnerTest {
 		outClass.usingClass();	//내부클래스 기능 호출
 		
 		
-		//outClass.inClass.inTest();
-		//OutClass.InClass inClass = outClass.new InClass();		
+		//outClass.inClass.inTest();  // 내부 객체가 private가 아닐 때 내부객체의 변수 , 메소드
+		//OutClass.InClass inClass = outClass.new InClass();			//내부클래스의 객체 생성
+													//반드시 아웃클래스의 객체를 생성후에 생성 할 수 있음
 		//inClass.inTest();
 		//위 private InClass에서 private안들어가면 사용할 수 있음
 	}
