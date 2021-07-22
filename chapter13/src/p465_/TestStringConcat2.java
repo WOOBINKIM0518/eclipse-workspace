@@ -9,19 +9,24 @@ public class TestStringConcat2 {
 		concat2.makeString(s1, s2);
 		
 		
-		/*
 		 
-		  StringConcat concat3 = new String Concat(){
+		  StringConcat concat3 = new StringConcat(){ //람다식은 내부적으로 Anonymous클래스로 변환되어서 작동
 		  
-		  @Override
-		  public void makeString (Stirng s1, String s2){
-		  System.out.printl(s1 + "," + s2);
-		  }
+			  
+			  
+			  @Override
+			  	public void makeString (String s1, String s2){
+				  
+				  
+				  System.out.println(s1 + "," + s2);
+		  	}
 		  };
+		  
+		  
 		  concat3.makeString(s1,s2);
 		  
 		  
-		 */
+		 
 	}
 
 }
