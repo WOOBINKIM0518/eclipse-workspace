@@ -4,17 +4,18 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class ExceptionHandling3 {
+public class ExceptionHandling4 {
 
 	public static void main(String[] args) {
-		FileInputStream fis = null;
 		
-		try{
-			fis = new FileInputStream("a.txt");
-			}catch (FileNotFoundException e) {
+		//FileInputStream fis = null;
+		
+		try(FileInputStream fis = new FileInputStream("a.txt");){
+			//fis = new FileInputStream("a.txt");
+			}catch (IOException e) {
 				System.out.println(e);
 				return;
-			}finally {
+			}/*finally {
 				if(fis != null){
 				try {
 					fis.close();
@@ -24,7 +25,6 @@ public class ExceptionHandling3 {
 				}
 			}
 				System.out.println("항상 수행 됩니다.");
-			}
-			System.out.println("여기도 수행 됩니다.");
+			}*/ 
 	}
 }

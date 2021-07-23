@@ -22,7 +22,7 @@ public class ArrayListStreamTest {
 		System.out.println("====================================");
 		//stream.sorted().forEach(s->System.out.println(s+ " "));
 		sList.stream().map(s ->s.length()).forEach(n->System.out.println(n));
-		//sList.stream().filter(s->s.length() >=5).forEach(s->System.out.println(s));
+		sList.stream().filter(s->s.length() >=5).forEach(s->System.out.println(s));
 		
 	}
 

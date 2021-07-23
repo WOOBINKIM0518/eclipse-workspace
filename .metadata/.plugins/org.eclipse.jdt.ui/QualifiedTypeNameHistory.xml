@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
-    <fullyQualifiedTypeName name="gamelevel.SuperLevel"/>
-    <fullyQualifiedTypeName name="gamelevel.player"/>
-    <fullyQualifiedTypeName name="finalex.Constant"/>
     <fullyQualifiedTypeName name="finalex.Define"/>
     <fullyQualifiedTypeName name="interfaceex.CompleteCalc"/>
     <fullyQualifiedTypeName name="scheduler.Scheduler"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="p453innerclass.OutClass.InStaticClass"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="p465_.StringConcat"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>

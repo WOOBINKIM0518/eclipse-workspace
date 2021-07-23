@@ -17,7 +17,11 @@ public class TravleTest {
 		
 		System.out.println("==고객 명단 추가된 순서대로 출력==");
 		customeList.stream().map(c -> c.getName()).forEach(s -> System.out.println(s));
+		System.out.println("=========================");
+		customeList.stream().map(c -> c.getName()).forEach(c -> System.out.println(c));
 		
+		
+										//객체형이라 정수로 바꿔야함
 		int total = customeList.stream().mapToInt(c -> c.getPrice()).sum();
 		System.out.println("총 여행 비용은 : " +total + "입니다.");
 		
